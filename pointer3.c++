@@ -6,7 +6,7 @@ class orang
 {
 private:
     string nama;
-    
+
 
 public:
     void setNama(string pNama);
@@ -21,6 +21,7 @@ public:
     void setId(int pId);
     void displayAll( orang &a);
 };
+
 
 void siswa::displayAll(orang &a)
 {
